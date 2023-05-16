@@ -13,11 +13,11 @@ import (
 func main() {
 	fmt.Printf("hi")
 
-	os.Setenv("SLACK_BOT_TOKEN", "xoxb-5262879010003-5269716773379-o48nS6NCKUO7lljMpNnlAkjK")
+	os.Setenv("SLACK_BOT_TOKEN", "xoxb-5262879010003-5269716773379-wYZ6Xr2YMzGlcbbXeooqU5YK")
 	os.Setenv("CHANNEL_ID", "C057TES004C")
 	api := slack.New(os.Getenv("SLACK_BOT_TOKEN")) // creating a new connection calling it slackbot token
 	channelArr := []string{os.Getenv("CHANNEL_ID")}
-	fileArr := []string{"postman_collection_v1.1.json", "database-export.csv"}
+	fileArr := []string{"postman_collection_v1.1.json", "database-export.csv", "Cheeba_congo.png", "Amazon_6_months.pdf"}
 
 	for i := 0; i < len(fileArr); i++ {
 		params := slack.FileUploadParameters{

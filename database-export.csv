@@ -1,0 +1,2 @@
+﻿"Status","Database ID","Database name","Subscription ID","Subscription name","Public endpoint","Private endpoint","Memory limit (MB)","Memory used (MB)","Throughput (Ops/sec)","Modules","Options","Shard type","Shard count","Shard price ($/hr)","Database price ($/hr)"
+"Active","11385282","Apurva-free-db","1922917","Apurva free subscription","redis-10789.c270.us-east-1-3.ec2.cloud.redislabs.com:10789","N/A","30","6.3","N/A","RedisTimeSeries; RedisGraph; RedisJSON; RedisBloom; RediSearch Light 2","N/A","N/A","N/A","N/A","Fixed price"
